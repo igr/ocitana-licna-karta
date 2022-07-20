@@ -21,7 +21,7 @@ Očitana karta je snimljena kao `licna.pdf`.
 + Popuni podatke u `licna.txt`
 
 Na primer:
-```properties
+```dotenv
 prezime=КРУЗОВИЋ
 ime=ТОМИСЛАВ
 roditelj=МИЛОРАД
