@@ -43,6 +43,8 @@ do=10.05.2031.
 ```
 Datum se piše uvek u formatu: `DD.MM.YYYY.` (obrati pažnju na poslednju tačku iza godine.) Da, ćirilica i latinica se mešaju; najbolje slediti primer.
 
+**Savet**: noviji telefoni su u mogućnosti da prepoznaju tekst sa uslikane lične karte. Tekst se, zatim, može lako prekopirati u fajl lako.
+
 ### Spremi crno-belu fotografiju u `licna.png`
 
 Dimenzije fotografije treba da su u odnosu `visina:širina = 4:3`.
@@ -53,7 +55,7 @@ Fotografija treba da je crno-bela. Voditi računa da se NE ostavi bela ili prozi
 
 Na sistemu mora biti instalirana Java 11. Gornja komanda startuje program.
 
-Napomena: prvo pokretanje traje značajno duže.
+**Napomena**: prvo pokretanje programa traje značajno duže.
 
 ## Primer
 
