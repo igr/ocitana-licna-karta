@@ -1,0 +1,86 @@
+@font-face {
+  src: url(arial-unicode-ms.ttf);
+  -fs-pdf-font-embed: embed;
+  -fs-pdf-font-encoding: Identity-H;
+}
+@page { margin: 53pt 53pt 0 53pt }
+body {
+  font-family: "Arial Unicode MS", serif;
+  font-size: 11pt;
+  font-weight: lighter;
+}
+hr {
+  size: 0;
+  border-top: 0.2pt solid #000;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 13.2pt;
+  line-height: 14pt;
+  font-weight: normal;
+  padding: 0 0 0 9.6pt;
+  margin: 6.5pt 0 7pt 0;
+}
+h2 {
+  font-size: 11pt;
+  padding: 0 0 0 8.5pt;
+  font-weight: normal;
+  margin: 4pt 0 4pt 0;
+}
+table#top {
+  margin: 3.5pt 0 5pt 7pt;
+  padding: 0;
+  border: 0;
+}
+table#bottom {
+  margin: 4pt 0 4pt 7pt;
+  padding: 0;
+  border: 0;
+}
+tr {
+  padding: 0;
+  margin: 0;
+}
+td {
+  margin: 0;
+  padding: 0 0 11.1pt 0;
+  vertical-align:top;
+  font-size: 11pt;
+  line-height: 12pt;
+}
+td.left {
+  width: 127pt;
+}
+td.last {
+  padding: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+hr#second {
+  margin-top: 2pt;
+}
+p.block {
+  margin: 3.5pt 0 0 8pt;
+}
+hr.small {
+  margin-top: 52pt;
+}
+p#small1 {
+  font-size: 9pt;
+  line-height: 9.8pt;
+  margin-top: 7pt;
+}
+p#small2 {
+  font-size: 9pt;
+  line-height: 9.8pt;
+  margin-bottom: 7pt;
+}
+img.profile {
+  margin: 14pt 0 10pt 0;
+  width: 158px;
+  height: 211px;
+  border: 1px solid #333;
+}

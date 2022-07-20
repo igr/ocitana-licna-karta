@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sr" lang="sr">
+<head>
+    <title>Lična Karta</title>
+    <link rel="stylesheet" type="text/css" href="./licna.css" title="Style"/>
+</head>
+<body>
+    <hr/>
+    <h1>ČITAČ ELEKTRONSKE LIČNE KARTE: ŠTAMPA PODATAKA</h1>
+    <hr/>
+    <img class="profile" src="licna.png"/>
+    <hr/>
+    <h2>Podaci o građaninu</h2>
+    <hr/>
+    <table id="top">
+        <tr>
+            <td class="left">Prezime:</td>
+            <td>${prezime}</td>
+        </tr>
+        <tr>
+            <td class="left">Ime:</td>
+            <td>${ime}</td>
+        </tr>
+        <tr>
+            <td class="left">Ime jednog roditelja:</td>
+            <td>${roditelj}</td>
+        </tr>
+        <tr>
+            <td class="left">Datum rođenja:</td>
+            <td>${rođendan}</td>
+        </tr>
+        <tr>
+            <td class="left">Mesto rođenja, opština i država:</td>
+            <td>${mesto-grad}, ${mesto-opština}, ${mesto-država}</td>
+        </tr>
+        <tr>
+            <td class="left">Prebivalište:</td>
+            <td>${adresa-grad}, ${adresa-opština}, ${adresa-ulica}</td>
+        </tr>
+        <tr>
+            <td class="left">Datum promene adrese:</td>
+            <td>${adresa-datum}</td>
+        </tr>
+        <tr>
+            <td class="left">JMBG:</td>
+            <td>${jmbg}</td>
+        </tr>
+        <tr>
+            <td class="left last">Pol:</td>
+            <td class="last">${pol}</td>
+        </tr>
+    </table>
+    <hr/>
+    <h2>Podaci o dokumentu</h2>
+    <hr/>
+    <table id="bottom">
+        <tr>
+            <td class="left">Dokument izdaje:</td>
+            <td>${izdao}</td>
+        </tr>
+        <tr>
+            <td class="left">Broj dokumenta:</td>
+            <td>${broj}</td>
+        </tr>
+        <tr>
+            <td class="left">Datum izdavanja:</td>
+            <td>${od}</td>
+        </tr>
+        <tr>
+            <td class="left last">Važi do:</td>
+            <td class="last">${do}</td>
+        </tr>
+    </table>
+    <hr/>
+    <hr id="second"/>
+    <p class="block">Datum štampe: ${štampa}</p>
+    <hr class="small"/>
+    <p id="small1">
+    1. U čipu lične karte, podaci o imenu i prezimenu imaoca lične karte ispisani su na nacionalnom pismu onako kako su
+ispisani na samom obrascu lične karte, dok. su ostali podaci ispisani latiničnim pismom.
+    </p>
+    <p id="small2">
+    2. Ako se ime lica sastoji od dve reči čija je ukupna dužina izmedu 20 i 30 karaktera ili prezimena od dve reči čija je ukupna dužina izmedu 30 i 36 karaktera, u čipu lične karte izdate pre 18.08.2014. godine, druga reč u imenu ili prezimenu skraćuje se na prva dva karaktera.
+    </p>
+    <hr/>
+</body>
+</html>

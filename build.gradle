@@ -1,0 +1,26 @@
+plugins {
+    id("application")
+    id("org.jetbrains.kotlin.jvm") version "${kotlinVersion}"
+}
+
+repositories {
+    mavenCentral()
+}
+
+group 'ac.obl.licna'
+version '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'ac.obl.licna.RunnerKt'
+}
+
+dependencies {
+    implementation 'org.xhtmlrenderer:flying-saucer-core:9.1.22'
+    implementation 'org.xhtmlrenderer:flying-saucer-pdf-openpdf:9.1.22'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+test {
+    useJUnitPlatform()
+}
