@@ -43,13 +43,13 @@ do=10.05.2031.
 ```
 Datum se piše uvek u formatu: `DD.MM.YYYY.` (obrati pažnju na poslednju tačku iza godine.) Da, ćirilica i latinica se mešaju; najbolje slediti primer.
 
-**Savet**: noviji telefoni su u mogućnosti da prepoznaju tekst sa uslikane lične karte. Tekst se, zatim, može lako prekopirati u fajl lako.
+**Savet**: noviji telefoni su u mogućnosti da prepoznaju tekst sa uslikane lične karte. Tekst se, zatim, može lako prekopirati u fajl.
 
 ### Spremi crno-belu fotografiju u `licna.png`
 
 Dimenzije fotografije treba da su u odnosu `visina:širina = 4:3`.
 
-Fotografija treba da je crno-bela. Voditi računa da se NE ostavi bela ili prozirna pozadina; već napraviti jednostavnu sivu, gradijentnu pozadinu, da liči na onu sa fotke. Ukoliko dođete do originalne fotke, još bolje :)
+Fotografija bi trebalo da je crno-bela. Voditi računa da se NE ostavi bela ili prozirna pozadina; već napraviti jednostavnu sivu, gradijentnu pozadinu, da liči na onu sa fotke. Ukoliko dođete do originalne fotke, još bolje :)
 
 ### Pokreni `./gradlew run`
 
