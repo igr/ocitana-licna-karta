@@ -41,7 +41,12 @@ od=10.05.2021.
 do=10.05.2031.
 štampa=22.07.2022.
 ```
+
 Datum se piše uvek u formatu: `DD.MM.YYYY.` (obrati pažnju na poslednju tačku iza godine.) Da, ćirilica i latinica se mešaju; najbolje slediti primer.
+
+Opciona polja su:
+
++ `adresa-datum` - ukoliko je izostavljeno, datum promene adrese neće biti izlistan.
 
 **Savet**: noviji telefoni su u mogućnosti da prepoznaju tekst sa uslikane lične karte. Tekst se, zatim, može lako prekopirati u fajl.
 
